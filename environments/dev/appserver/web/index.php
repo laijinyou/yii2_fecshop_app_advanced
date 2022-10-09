@@ -34,7 +34,7 @@ defined('YII_ENV') or define('YII_ENV', 'dev');
 defined('FEC_APP') or define('FEC_APP', 'appserver');
 
 require(__DIR__ . '/../../vendor/autoload.php');
-require(__DIR__ . '/../../vendor/fancyecommerce/fecshop/yii/Yii.php');
+require(__DIR__ . '/../../vendor/laijinyou/yii2_fecshop/yii/Yii.php');
 $fecmall_common_main_local_config = require(__DIR__ . '/../../common/config/main-local.php');
 require(__DIR__ . '/../../common/config/bootstrap.php');
 
@@ -50,9 +50,9 @@ if($use_merge_config_file){
 		require(__DIR__ . '/../config/main-local.php'),
         
 		# fecshop 公用配置
-		require(__DIR__ . '/../../vendor/fancyecommerce/fecshop/config/fecshop.php'),
+		require(__DIR__ . '/../../vendor/laijinyou/yii2_fecshop/config/fecshop.php'),
 		# fecshop 入口配置
-		require(__DIR__ . '/../../vendor/fancyecommerce/fecshop/app/appserver/config/appserver.php'),
+		require(__DIR__ . '/../../vendor/laijinyou/yii2_fecshop/app/appserver/config/appserver.php'),
 		
 		# thrid part confing
 		# 第三方 公用配置

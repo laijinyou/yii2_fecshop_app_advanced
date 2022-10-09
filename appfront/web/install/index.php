@@ -16,7 +16,7 @@ $config = yii\helpers\ArrayHelper::merge(
     require(__DIR__ . '/../../../common/config/main-local.php'),
     require(__DIR__ . '/../../config/main.php'),
     require(__DIR__ . '/../../config/main-local.php'),
-    require(__DIR__ . '/../../../vendor/fancyecommerce/fecshop/app/appinstall/config/appinstall.php')
+    require(__DIR__ . '/../../../vendor/laijinyou/yii2_fecshop/app/appinstall/config/appinstall.php')
 );
 $config['homeUrl'] = $homeUrl.'/index.php';
 $application = new yii\web\Application($config);

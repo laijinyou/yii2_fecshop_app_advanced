@@ -16,7 +16,7 @@ defined('YII_ENV') or define('YII_ENV', 'prod');
 defined('FEC_APP') or define('FEC_APP', 'appserver');
 
 require __DIR__.'/../../vendor/autoload.php';
-require __DIR__.'/../../vendor/fancyecommerce/fecshop/yii/Yii.php';
+require __DIR__.'/../../vendor/laijinyou/yii2_fecshop/yii/Yii.php';
 
 require __DIR__.'/../../common/config/bootstrap.php';
 
@@ -31,9 +31,9 @@ if ($use_merge_config_file) {
         require(__DIR__.'/../config/main.php'),
         require(__DIR__.'/../config/main-local.php'),
         // fecshop services config
-        require(__DIR__.'/../../vendor/fancyecommerce/fecshop/config/fecshop.php'),
+        require(__DIR__.'/../../vendor/laijinyou/yii2_fecshop/config/fecshop.php'),
         // fecshop module config
-        require(__DIR__.'/../../vendor/fancyecommerce/fecshop/app/appserver/config/appserver.php'),
+        require(__DIR__.'/../../vendor/laijinyou/yii2_fecshop/app/appserver/config/appserver.php'),
 
         // thrid part confing
 
