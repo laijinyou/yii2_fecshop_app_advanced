@@ -7,7 +7,7 @@ return [
             'dsn' => 'mysql:host={mysql_host};port={mysql_port};dbname={mysql_database}',
             'username' => '{mysql_user}',
             'password' => '{mysql_password}',
-            'charset' => 'utf8',
+            'charset' => 'utf8mb4',
         ],
         // Mongodb部分的配置
 		'mongodb' => [

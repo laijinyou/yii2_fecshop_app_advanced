@@ -6,7 +6,7 @@ return [
             'dsn'      => 'mysql:host=localhost;dbname=yii2_advanced_tests',
             'username' => 'root',
             'password' => '',
-            'charset'  => 'utf8',
+            'charset'  => 'utf8mb4',
         ],
     ],
 ];
